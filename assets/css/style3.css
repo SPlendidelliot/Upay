@@ -1,0 +1,29 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.navlinks{
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    align-items: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    row-gap: 7px;
+}
+.btn{
+    background-color:  rgba(0, 0, 0, 0.226);
+    color: beige;border-radius: 7px;
+    outline: none;
+    padding: 6px 5px;
+}
+.btn:hover{
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
